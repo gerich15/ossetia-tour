@@ -28,4 +28,4 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone 
+git clone https://github.com/gerich15/ossetia-tour.git
