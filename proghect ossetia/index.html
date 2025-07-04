@@ -8,12 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylr.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ossetia-Tour</title>
 </head>
 
 <body>
     <div class="container">
-        <header class="home_screen">
+        <header class="home_screen" id="home_screen">
             <div class="fon">
                 <img src="./image/jpeg/snapedit_1749908729651.jpeg" alt="">
                 <div class="head_menu">
@@ -33,7 +33,7 @@
                                     <a class="re" href="#main_page">Туры</a>
                                 </li>
                                 <li>
-                                    <a class="re" href="#">Контакты</a>
+                                    <a class="re" href="#foote">Контакты</a>
                                 </li>
                             </ul>
                         </nav>
@@ -75,7 +75,7 @@
         </header>
     </div>
     <div class="container">
-        <main class="main_page flexbox_main">
+        <main class="main_page flexbox_main" id="main_page">
             <div class="cards_main">
                 <div class="cards flexbox_main">
                     <div class="card">
@@ -172,7 +172,7 @@
         </main>
     </div>
     <div class="container">
-        <section class="about_menu about_flex">
+        <section class="about_menu about_flex" id="about_menu">
             <div class="about_fon">
                 <img src="./image/png/a47c7532ddd67a16e8fa9736fb82a19c.png" alt="">
                 <div class="text_main-about">
@@ -288,7 +288,70 @@
         </section>
     </div>
     <div class="container">
-        <section class="foot">
+        <section class="citi_tour">
+            <img class="citi" src="./image/png/city_1200.png" alt="">
+            <div class="cont_citi_info">
+                <div class="cont_text">
+                    <h1>Туры по городу Владикавказ</h1>
+                </div>
+                <div class="citi_cards">
+                    <div class="card_city">
+                        <a href="#"><img src="./image/png/betmen.png" alt=""></a>
+                        <div class="text_city">
+                            <h4>достопримечательности Владикавказа</h4>
+                        </div>
+                    </div>
+                    <div class="card_city1">
+                        <a href="#"><img src="./image/png/gastro.png" alt=""></a>
+                        <div class="text_city1">
+                            <h4>Гастротур</h4>
+                        </div>
+                    </div>
+                    <div class="card_city2">
+                        <a href="#"><img src="./image/png/katamaran.png" alt=""></a>
+                        <div class="text_city2">
+                            <h4>Прогулка на катамаране</h4>
+                        </div>
+                    </div>
+                    <div class="card_city3">
+                        <a href="#"><img src="./image/png/museum.png" alt=""></a>
+                        <div class="text_city3">
+                            <h4>Музеи Осетии</h4>
+                        </div>
+                    </div>
+                    <div class="city_buttom">
+                        <button class="open-popup" id="city_but">Запишитесь на тур прямо сейчас</button>
+                    </div>
+                </div>
+                <div class="popup__bg">
+                    <form class="popup">
+                        <img src="image/svg/close2_121018.svg" class="close-popup">
+                        <label>
+                            <input type="text" name="name">
+                            <div class="label__text">
+                                Ваше имя
+                            </div>
+                        </label>
+                        <label>
+                            <input type="tel" name="tel">
+                            <div class="label__text">
+                                Ваш телефон
+                            </div>
+                        </label>
+                        <label>
+                            <textarea name="message"></textarea>
+                            <div class="label__text">
+                                Ваше сообщение
+                            </div>
+                        </label>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="foot" id="foote">
             <div class="heigh_foot">
                 <div class="logo_foot">
                     <div class="imag_foot">
@@ -369,7 +432,7 @@
     </div>
     <div class="container">
         <footer>
-            
+
         </footer>
     </div>
     <script defer src="script.js"></script>
